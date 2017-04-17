@@ -70,3 +70,11 @@ a:hover {
 .text-uppercase {
   text-transform: uppercase;
 }
+.link{
+  /*convertimos el texto en bold (negritas)*/
+  font-weight: 700; 
+  /*agregamos espacio entre los textos*/
+  padding: 21px;
+  /*crea cajas que son bloque en linea simultanea*/
+  display: inline-block;
+}

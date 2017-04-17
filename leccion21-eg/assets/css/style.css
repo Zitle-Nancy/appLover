@@ -1,0 +1,100 @@
+header{
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+}
+#home{
+	background-image: url(../img/bg-home.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 554px;
+	text-align: center;
+	margin-top: 80px;
+}
+#home .container{
+	color: white;
+	padding: 78px;
+}
+.menu{
+	padding: 14px 70px;
+	overflow: auto;
+}
+
+.logo{
+	float: right;
+}
+.link{
+  /*convertimos el texto en bold (negritas)*/
+  font-weight: 700; 
+  /*agregamos espacio entre los textos*/
+  padding: 21px;
+  /*crea cajas que son bloque en linea simultanea*/
+  display: inline-block;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-home{
+	font-size: 53px;
+
+}
+.text-work{
+	font-size: 35px;
+	text-align: center;
+}
+.container > h4{
+	text-align: center;
+}
+.btn-home{
+	background: #2ecc71;
+	color: #fff;
+	padding: 11px 20px;
+	border-radius: 1px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 63px;
+	display: inline-block;
+	font-size: 14px;
+}
+/*estilos de la seccion Services*/
+#services{
+	background-color: #f17c72;
+	text-align: center;
+	color: #fff;
+	padding: 70px 7px;
+}
+.box-services{
+	display: inline-block;
+	width: 30%;
+	margin-top: 63px;
+}
+.text-services{
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+.work-img{
+	text-align: center;
+}
+.box-work{
+	float: left;
+	margin-left: 100px;
+}
+.box-work > img{
+	margin-top: 50px;
+	width: 300px;
+	height: 300px;
+}
+.box-work  > h4{
+	text-align: center;
+	margin-bottom: 50px;
+}
+footer{
+	position: absolute;
+	margin-top: 1300px;
+	background: #4f4b4b;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
